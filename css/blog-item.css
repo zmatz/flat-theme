@@ -1,0 +1,56 @@
+body{
+	background-color: rgba(128, 128, 128, 0.09);
+}
+.img-ad{
+	border-radius: 20px;
+	padding: 10px;
+    width: 172px;
+}
+.padding{
+	
+}
+.inline{
+display: inline-block;
+}
+/*Input Search*/
+#s{
+	float: right;
+}
+/*Button search*/
+#bt-s{
+    float: right;
+}
+.bg-white{
+	background-color: white;
+	height: auto;
+}
+#img-blog{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+.cont-ref{
+
+}
+.tags{
+
+}
+.icon-tags{
+
+}
+.float-right{
+	float: right;
+}
+#john-doe{
+	width: 530px;
+    margin-top: -1px;
+}
+.autor{
+	width: 90%;
+    margin-left: 36px;
+    margin-top: 17px;
+}
+.autor img{
+	padding-bottom: 5px;
+	margin-right: 10px;
+}

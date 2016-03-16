@@ -10,6 +10,7 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/blog-item.css">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -21,7 +22,121 @@
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
 <body>
-    <!-- Inserte código aqui -->
+    <!---->
+
+    <!-- HEADER -->
+    <nav class="navbar navbar-default nav-header"> <!-- Agregue la clase nav-header-->
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+              <img src="images/logo.png" alt="">
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Home</a></li>
+            <li class="dropdown">
+              <a href="#">About Us</a>
+            </li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <!-- FIN HEADER -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                 <img id="img-blog" class="img-responsive" src="images/blog/blog2.jpg" alt="">
+                <div class="bg-white">
+                   <h3>Duis sed odio sit amet nibh vulputate cursus</h3>
+                   <div class="cont-ref">
+                   <span>
+                       <i class="icon-user">
+                           <a href="#">John</a>
+                       </i>
+                   </span>
+                   <span>
+                       <i class="icon-folder-close">
+                           <a href="#">Bootstrap</a>
+                       </i>
+                   </span> 
+                   <span>
+                       <i class="icon-calendar">
+                           <a href="#">"    Sept 16th, 2012"</a>
+                       </i>
+                   </span>
+                   <span>
+                       <i class="icon-comment">
+                           <a href="blog-item.html#comments">3 Comments</a>
+                       </i>
+                   </span>  
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum tempore ut quod eaque neque soluta eius, corporis, perspiciatis obcaecati sapiente, optio, facere voluptates! Illum, reiciendis repellendus iure harum eum dolor.</p>
+                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam numquam culpa repellendus ipsum vero ratione, quaerat, iusto soluta recusandae quidem impedit illum asperiores eaque porro id modi a voluptatem! Deserunt!</small>
+                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, suscipit repudiandae minima eum atque, ipsa praesentium at ea unde architecto debitis doloribus velit, accusantium alias aliquid quo consequuntur libero quidem.</small>
+                
+                <hr>
+                <div class="tags">
+                    <i class="icon-tags"></i>
+                        Tags
+                    <a class="btn btn-primary btn-xs" href="#">CSS</a>
+                    <a class="btn btn-primary btn-xs" href="#">HTML5</a>
+                    <a class="btn btn-primary btn-xs" href="#">WordPress</a>
+                    <a class="btn btn-primary btn-xs" href="#">Joomla</a>
+                </div>
+                <div class="autor well">
+                    <div class="inline">
+                        <img src="images/blog/avatar.jpg" alt="">
+                    </div>
+                    <div id="john-doe" class="inline">
+                        <p>John Doe</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse adipisci deserunt modi obcaecati, dolore blanditiis quos natus!</p>
+                    </div>
+                </div>
+                <div class="comments">
+                   <h3>3 Comments</h3> 
+                   <div>
+                       <div class="avatar img-circle">
+                           <img src="images/blog/avatar1.png" alt="">
+                       </div>
+                   </div>
+                </div>
+                </div><!--fin del div bg-white-->
+            </div>
+            <div class="col-sm-4">
+                <forms class="form-search" method="get" id="s" action="/">
+                    <div class="input-group">
+                        <input class="form-control" id="search" type="text" placeholder="Search">
+                        <button id="bt-s" type="button" class="add-on btn btn-default btn-danger"><i class="icon-search"></i></button>
+                        </input>
+                    </div>
+                </form>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img class="responsive border-radius img-ad" src="images/ads/ad1.png" alt="">
+                        <img class="responsive border-radius  img-ad" src="images/ads/ad3.png" alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <img class="responsive border-radius img-ad" src="images/ads/ad2.png" alt="">
+                        <img class="responsive border-radius  img-ad" src="images/ads/ad4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>

@@ -1,0 +1,67 @@
+/*------ABOUT ZAZ------*/
+/*--Progress Bar--*/
+/*aumenta la altura de las barras*/
+.progress {
+  height: 28px !important;
+ } 
+ /*Progress Bar agregada*/
+ .progress-bar-custom {
+  background-color: #085DAD;
+}
+.progress-striped .progress-bar-custom {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+}
+/*Team mini profile*/
+.mt-5 {
+	margin: 1%;
+}
+
+/*fotos redondeadas*/
+.e-pic {
+    border-radius: 50%;
+    width: 80%;
+}
+.pd-5 {
+    padding: 5%;
+}
+/*iconos redes sociales */
+.btn-social {
+    border: 0;
+    color: #fff;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    padding: 0;
+}
+
+.btn-facebook.btn-social  {
+	background-color:#3C599F;
+} 
+.btn-google-plus.btn-social  {
+	background-color: #C52F30;
+}
+.btn-twitter.btn-social  {
+	background-color:#32CCFE;
+} 
+.btn-linkedin.btn-social  {
+	background-color: #0085AE;
+}
+
+
+/*----Fin About Us -----*/
+
+@media screen and (max-width: 768px){
+  .center{
+        margin: 15px 0;
+  }
+  .center h4 {
+    height: 40px;
+    font-size: 16px;
+  }
+}
+
+

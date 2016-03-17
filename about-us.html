@@ -20,9 +20,14 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    
+    <!--About us CSS !!!!-->
+    <link href="css/about-us.css" rel="stylesheet">
+
 </head><!--/head-->
-<body>
-    <!-- HEADER -->
+<body> 
+
+        <!-- HEADER -->
     <nav class="navbar navbar-default nav-header"> <!-- Agregue la clase nav-header-->
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -41,20 +46,133 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Home</a></li>
-            <li class="dropdown">
-              <a href="#">About Us</a>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="about-us.html">About Us</a>
             </li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact-us.html">Contact</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
     <!-- FIN HEADER -->
 
+    <!-- ENCABEZADO VERDE -->
+    <section class="green-header bg-green">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-md-8 header-title">
+                    <h1>About Us</h1>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <ol class="breadcrumb">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="#">About Us</a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section><!-- About us -->
+        <div class="container">
+            <div class="row"> <!--what we are / our skills-->
+                <div class="col-md-6 col-xs-12">
+                    <h1>What we are</h1>
+                    <p>La doctrina budista fundamental es la de la coproducción condicionada. Todo surge en dependencia de ciertas condiciones y nada tiene una esencia fija y básica; tampoco nosotros. Lo que somos ahora es el resultado de las condiciones de nuestro pasado. Lo que seremos en el futuro estará determinado por las condiciones del presente y uno de los factores determinantes principales de lo que seremos en el futuro es nuestro comportamiento actual.
+                    Nuestros actos determinan lo que somos. Esta premisa hace posible una vida espiritual y el Buda así lo entendió. Al empezar a cambiar nuestro comportamiento también comenzamos a hacernos diferentes. Ésta es la raíz de toda creatividad. No estamos predestinados a repetir las pautas de comportamiento del pasado, volviendo a ser la misma persona una y otra vez, sino que podemos convertirnos en una nueva persona. Cada instante de la vida presenta una serie infinita de posibilidades.
+                    </p>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <div class="showback">
+                        <h1>Our Skills</h1>
+                        <div class="progress progress-striped">
+                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+                                <span class="sr-only">95% Complete (success)</span>
+                                HTML/CSS
+                            </div>
+                        </div>
+                        <div class="progress progress-striped">
+                            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                 <span class="sr-only">70% Complete</span>
+                            Wordpress
+                            </div> 
+                        </div>
+                        <div class="progress progress-striped">
+                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                            <span class="sr-only">50% Complete (warning)</span>
+                            Joomla
+                            </div>
+                        </div>
+                        <div class="progress progress-striped">
+                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                                <span class="sr-only">65% Complete (danger)</span>
+                            Drupal
+                            </div>
+                        </div>
+                        <div class="progress progress-striped">
+                            <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                <span class="sr-only">80% Complete (danger)</span>
+                            PHP
+                            </div>
+                        </div>                  
+                    </div> <!--showback-->
+                </div> <!--col-->
+            </div><!--row-->
+            <div class="row mt-5"> <!--Meet the team-->
+                <div class="col-xs-12 center pd-5">
+                    <h1>Meet the team</h1>
+                    <p>La forma en que configuramos nuestra personalidad, es decir, lo que somos, está determinado por la clase de karma que tenemos, o sea, por los actos de voluntad.</p>
+                </div>
+            </div>
+            <div class="row mt-5"> <!--team mini profiles-->
+                <div class="col-md-3 col-xs-6 center">
+                    <img class="e-pic pd-5" src="images/team-member/shorthaircatyagopatal.jpg">
+                    <h4>Paty Jimenez</h4>
+                    <h6>Cargo desempenado</h6>
+                    <p>They tend to show affection, calm and steady nature, but retain some of the energetic spark of their forebears and they are often capable mouse hunters.</p>
+                    <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> 
+                    <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a>
+                    <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> 
+                    <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
+                </div>                     
+                <div class="col-md-3 col-xs-6 center">
+                    <img class="e-pic pd-5" src="images/team-member/wtdeeryagopartal.jpg">
+                    <h4>Anita Barvenadosa</h4>
+                    <h6>Cargo desempenado</h6>
+                    <p>A way white-tailed deer communicate is through the use of their white tail. When spooked, it will raise its tail to warn the other deer in the immediate area.</p>
+                    <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> 
+                    <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> 
+                    <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> 
+                    <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
+                </div>
+                <div class="col-md-3 col-xs-6 center">
+                        <img class="e-pic pd-5" src="images/team-member/ferretyagopartal.jpg">
+                        <h4>Zazil Hurontinez</h4>
+                        <h6>Cargo desempenado</h6>
+                        <p>They perform a behaviour called the weasel war dance, characterized by a frenzied series of sideways hops, leaps and bumping into.</p>
+                        <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> 
+                        <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> 
+                        <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> 
+                        <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>                
+                </div>
+                <div class="col-md-3 col-xs-6 center">
+                        <img class="e-pic pd-5" src="images/team-member/deeryagopatel.jpg">
+                        <h4>Anita Barvenadosa</h4>
+                        <h6>Cargo desempenado</h6>
+                        <p>The white-tailed deer, is a medium-sized deer native to the United States, Canada, Mexico, Central America, and South America</p>
+                        <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> 
+                        <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> 
+                        <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> 
+                        <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
+                </div>
+            </div>
+        </div><!--container-->
+    </section>
 
     <!-- FOOTER -->
     <section class="section-sitemap">

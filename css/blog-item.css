@@ -17,6 +17,9 @@ body{
 .input-group{
     padding: 15px;
 }
+#imgs-ads {
+    padding: 15px;
+}
 .img-ad{
 	border-radius: 20px;
 	padding: 10px;
@@ -48,8 +51,8 @@ display: inline-block;
 .cont-ref{
 
 }
-.tags{
-
+.tag-cloud li{
+ display: inline-block;
 }
 .icon-tags{
 
@@ -99,4 +102,7 @@ ul.tag-cloud{
 }
 ul.categories{
     list-style-type: none;
+}
+.blog-btn {
+    margin-top: 15px;
 }

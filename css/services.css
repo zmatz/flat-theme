@@ -1,0 +1,17 @@
+/*---iconos redonditos*/
+.icn-rdn {
+    font-size: 25px;
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    color: #fff;
+    margin: 10px;
+    background-color: rgba(0,0,0,0.4);
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+ }
+/*espacio entre rows*/
+.line {
+	height: 5px;
+}

@@ -1,0 +1,168 @@
+/*HEADER*/
+.navbar{
+    margin: 0 !important;
+}
+.nav-header {
+    background-color: #34495e;
+    border: none;
+    border-radius: 0;
+    padding: 10px 0;
+}
+.navbar-brand img{
+	width: 80%;
+}
+.navbar-nav>li>a {
+    color: #fff !important;
+    margin-top: 10px;
+    height: 20px;
+    line-height: 0px;
+    font-size: 13px !important;
+    border-radius: 3px;
+}
+.navbar-nav>li>a:hover {
+    background-color: #2c3e50 !important;
+    color: #1bbc9b !important;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #1bbc9b;
+    border: 1px solid #1bbc9b;
+    color: #34495e;
+}
+/*FIN HEADER*/
+
+/*SITEMAP*/
+.section-sitemap{
+    background-color: #34495e;
+    padding: 15px 0;/*
+    position: fixed;
+    width: 100%;
+    bottom: 80px;*/
+}
+.sitemap .sitemap-title{
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+
+}
+.sitemap p{
+    font-size: 12px;
+    font-weight: 300;
+    color: #d2d3d4;
+}
+.sitemap ul{
+    padding: 0;
+}
+.sitemap ul li {
+    list-style: none;
+}
+.sitemap ul li a{
+    color: #d2d3d4;
+    font-size: 11px;
+    font-weight: 300;
+}
+.sitemap ul li a:hover{
+    color: #fff;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 300;
+}
+.latest-blog-img img{
+    width: 100%;
+}
+.latest-blog-txt{
+    padding-left: 0; 
+}
+.latest-blog-txt p{
+    font-size: 12px;
+}
+.latest-blog-txt .date{
+    display: block;
+    font-size: 10px;
+    padding-top: 5px;
+}
+.input-group-addon {
+    background-color: #e74c3c !important;
+    border:none !important;
+    color: #fff;
+}
+address{
+    color: #d2d3d4;
+    font-weight: 300;
+}
+
+/*FOOTER*/
+.footer{
+    height: auto !important;
+    background-color: #2c3e50;
+    border: none;
+    border-radius: 0;
+    padding: 10px 0;
+    font-weight: 300;/*
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+*/}
+.footer-nav{
+    float: right;
+}
+.footer-nav .nav>li {
+    position: relative;
+    display: inline-block;
+}
+.footer .creditos {
+    line-height: 60px;
+    color: #fff;
+    margin: 0;
+}
+.footer-menu {
+    padding: 7px 0;
+    float: right;
+}
+.glyphicon{
+    line-height: 0;
+}
+
+/*CONTACTO*/
+.green-header{
+    width: 100%;
+    height: 200px;
+}
+.bg-green{
+    background-color: #2ecc71;;
+}
+.header-title{
+    color: #fff !important;
+    padding: 35px 0;
+}
+.breadcrumb {
+    float: right;
+    line-height: 170px;
+    background-color: transparent;
+    color: #fff;
+}
+.breadcrumb li a{
+    color: #fff;
+}
+
+/*Form contact*/
+.section-contacto{
+    padding: 30px 0;
+}
+.form-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.form-contacto {
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 768px){
+    .header-title {
+        color: #fff !important;
+        padding: 15px 15px;
+    }
+    .breadcrumb {
+        float: right;
+        line-height: 0;
+}
+}

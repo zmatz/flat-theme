@@ -1,0 +1,32 @@
+/*--Barra verde revisar si coincide clases y colores--*/
+.bg-green {
+	background-color: #058f51;
+	padding: 2% 0%;
+}
+.mini-nav {
+	float: right;
+	text-decoration: none;
+	padding: 3%;
+	margin-top: 60px;
+}
+.mini-nav:hover,
+.mini-nav:focus {
+	color: white;
+	background-color: #d8d8d8;
+	text-decoration: none;
+}
+.text-white {
+	color: white;
+}
+/*-----PORTFOLIO-----*/
+.bg-gray {
+	background-color: #d8d8d8;
+	padding: 3% 0%;
+}
+.bg-white {
+	background-color: white;
+	padding: 2%;
+}
+.w-100 {
+	width: 100%;
+}
